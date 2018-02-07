@@ -1,0 +1,62 @@
+<!-- 
+- - - - - - - - - - - - - - - - -
+INSTRUCTIONS 
+- - - - - - - - - - - - - - - - -
+
+Create an html document, that passes W3C validation, and which uses flexbox to display a list of items within a content card as per the design supplied. 
+Fonts, colours, spacing should match as closely as possible to the design. Use your eye to judge, we will be looking for balance and precision.
+You should use straight css and javascript (no jquery) and this should be organised as per the project structure.
+
+
+User the content links below for the images within your design:
+
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/93.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/78.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/59.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/46.jpg
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Design Assignment</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <script src="js/scripts.js"></script>
+</head>
+
+<body class="body">
+    <div class="div-container" id="cardListDiv">
+        <ul class="card-list">
+            <li>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/93.jpg" alt="Linda Hart image">
+                <h3>Linda Hart</h3>
+                <p>6765 Shady Ln Dr</p>
+            </li>
+            <li>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/46.jpg" alt="Roger Medina image">
+                <h3>Roger Medina</h3>
+                <p>2420 Paddock Way</p>
+            </li>
+            <li>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/59.jpg" alt="Dean Sullivan image">
+                <h3>Dean Sullivan</h3>
+                <p>6727 Airplane Ave</p>
+            </li>
+            <li>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/78.jpg" alt="Elizabeth Austin image">
+                <h3>Elizabeth Austin</h3>
+                <p>6685 Blossom Hill Rd</p>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-div">
+        <input class="btn" id="btnShowHide"type="button" value="HIDE CONTENT" onclick="toggleDivShow()">
+    </div>
+
+</body>
+
+</html>
